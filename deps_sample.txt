@@ -1,0 +1,14 @@
+# 依赖列表示例：包名 依赖包 版本要求
+app     web     >=2.0
+app     db      [1.2,2.0)
+app     cache   1.0
+app     ui      0.9
+web     db      >=1.5,<1.8
+web     util    *
+web     log     1.0
+db      util    ==1.3
+cache   util    >=2.0
+util    log     >=1.0
+log     net     >=1.0
+net     log     <2.0
+ui      ghost   1.0
