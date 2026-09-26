@@ -1,0 +1,15 @@
+# 示例依赖清单：包名 依赖包 版本要求（"-" 表示声明无依赖的包）
+app     web      >=2.0
+app     db       [1.2,2.0)
+app     cache    *
+web     util     >=1.5
+web     log      ==0.9
+web     ssl      >=1.0
+db      util     <1.0
+db      log      >=0.8
+cache   util     [1.0,3.0]
+auth    crypto   ==1.1
+crypto  auth     *
+util    -        -
+log     -        -
+crypto  -        -
